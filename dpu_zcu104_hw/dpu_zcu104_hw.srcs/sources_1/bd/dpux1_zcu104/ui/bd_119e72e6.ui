@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.918889",
+   "Default View_TopLeft":"-171,1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace inst DPUCZDX8G_0 -pg 1 -lvl 4 -x 1460 -y 750 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 490 -y 560 -defaultsOSRD
+preplace inst dpu_const_1b0 -pg 1 -lvl 1 -x 190 -y 700 -defaultsOSRD
+preplace inst gen_rst_clk -pg 1 -lvl 3 -x 960 -y 100 -defaultsOSRD
+preplace inst gen_rst_clk_dsp -pg 1 -lvl 3 -x 960 -y 280 -defaultsOSRD
+preplace inst gen_rst_reg -pg 1 -lvl 1 -x 190 -y 540 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 490 -y 720 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 3 -x 960 -y 490 -defaultsOSRD
+preplace netloc DPUCZDX8G_0_dpu_2x_clk_ce 1 1 4 380 880 NJ 880 NJ 880 1630
+preplace netloc DPUCZDX8G_0_dpu_interrupt 1 1 4 390 870 NJ 870 NJ 870 1620
+preplace netloc clk_wiz_0_clk_dpu 1 2 2 600 790 NJ
+preplace netloc clk_wiz_0_clk_dsp 1 2 2 620 750 NJ
+preplace netloc clk_wiz_0_locked 1 2 1 590 140n
+preplace netloc dpu_const_1b0_dout 1 1 1 360 700n
+preplace netloc gen_rst_clk_dsp_peripheral_aresetn 1 3 1 1270 320n
+preplace netloc gen_rst_clk_peripheral_aresetn 1 3 1 1280 140n
+preplace netloc gen_rst_reg_peripheral_aresetn 1 1 3 360 480 610 730 NJ
+preplace netloc xlconcat_0_dout 1 2 1 630 560n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 10 640 370 640 640 650 1260
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 4 20 800 NJ 800 NJ 800 1250
+preplace netloc DPUCZDX8G_0_DPU0_M_AXI_DATA0 1 2 3 650 620 NJ 620 1630
+preplace netloc DPUCZDX8G_0_DPU0_M_AXI_DATA1 1 2 3 660 630 NJ 630 1620
+preplace netloc DPUCZDX8G_0_DPU0_M_AXI_INSTR 1 2 3 670 640 1290J 610 1640
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 3 1 1300 470n
+levelinfo -pg 1 -10 190 490 960 1460 1660
+pagesize -pg 1 -db -bbox -sgen -10 0 1660 900
+"
+}
+
