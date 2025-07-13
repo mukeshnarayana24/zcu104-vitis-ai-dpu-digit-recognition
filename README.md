@@ -255,7 +255,7 @@ Then click ok, Exit and save
 ### 🧹 Remove Deprecated DNNDK Package
 
 The **DNNDK** package is deprecated and no longer supported in `Vitis AI 1.4 (2021.1)`.  
-Since we’ve added the `meta-vitis-ai` layer, we need to **remove the DNNDK entry** from the default Petalinux recipe to avoid conflicts.
+Since we’ve added the `meta-vitis-ai` layer, we need to **remove the DNNDK entry** from the default Petalinux recipe to avoid conflicts in the file path plnx-prj-root/components/yocto/layers/meta-petalinux/recipes-core/packagegroups/packagegroup-petalinux-vitisai.bb
 
 
 
